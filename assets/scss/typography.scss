@@ -1,0 +1,22 @@
+body {
+  font-family: $baseFont;
+  font-size: $baseFontSize;
+  color: $fontBlack;
+}
+
+h3 {
+  font-size: $h3FontSize;
+  font-family: $mediumFont;
+}
+
+p {
+  font-weight: 400;
+}
+
+
+.medium_text {
+  font-size: $navFontSize;
+  font-family: $mediumFont;
+  color: $fontAccentColor;
+  font-weight: 400;
+}

@@ -1,0 +1,10 @@
+.pre_footer {
+  padding-bottom: $footerHeight;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: $footerHeight;
+  width: 100%;
+}

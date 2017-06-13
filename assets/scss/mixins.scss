@@ -1,0 +1,39 @@
+// css3
+
+@mixin transition($prop: all, $duration: $defaultTransitionDuration) {
+  transition: $prop $duration;
+  -webkit-transition: $prop $duration;
+  -moz-transition: $prop $duration;
+  -o-transition: $prop $duration;
+}
+
+
+
+@mixin flex_align($justify-content: center,$align-item: center ) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-item;
+  -webkit-align-items: $align-item;
+}
+
+@mixin margin_align() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin align($align: center) {
+  text-align: $align;
+}
+
+@mixin circleHover($color) {
+  border-radius: 50%;
+  border: 1px solid $color;
+  @include transition();
+}
+
+
