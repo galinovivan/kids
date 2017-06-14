@@ -20,3 +20,11 @@ p {
   color: $fontAccentColor;
   font-weight: 400;
 }
+
+.page_title {
+  font-size: $h3FontSize;
+  color: $fontAccentColor;
+  text-transform: uppercase;
+  font-family: $mediumFont;
+  font-weight: 500;
+}

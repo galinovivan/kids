@@ -1,0 +1,8 @@
+.grid_row {
+  @include clearfix();
+}
+
+.grid {
+  display: block;
+  float: left;
+}

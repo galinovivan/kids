@@ -7,3 +7,8 @@ body {
   position: relative;
   min-height: 100%;
 }
+
+.gray_base_background {
+  background: url('../images/border_bottom.png') no-repeat 0 0,
+  url('../images/border_top.png') no-repeat $grayColor;
+}

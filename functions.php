@@ -7,7 +7,7 @@
  */
 
 add_theme_support('post_thumbnails');
-set_post_thumbnail_size(825, 510, true);
+
 
 add_theme_support( 'post-formats', array(
     'aside', 'image', 'video', 'quote', 'link', 'gallery', 'status', 'audio', 'chat'
@@ -41,3 +41,7 @@ function kids_scrips() {
 }
 
 add_action('wp_enqueue_scripts', 'kids_scrips');
+
+
+add_theme_support('post-thumbnails');
+set_post_thumbnail_size(825, 510, false);

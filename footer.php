@@ -9,15 +9,11 @@
 <div class="pre_footer"></div>
 <footer>
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 text-center">
-                <span class="medium_text">Детский сад</span>
-            </div>
-            <div class="col-md-4 text-center">
-                <span class="medium_text">телефон</span>
-            </div>
-            <div class="col-md-4 text-center">
-                <span class="medium_text">адрес</span>
+        <div class="contact_row">
+                <span class="medium_text">Детский сад №5 Петроградского района г. С-Пб</span>
+                <span class="medium_text no_marg">Тел: +7 812 000 00 00</span>
+                <span class="medium_text">Тел: +7 812 000 00 00</span>
+                <span class="medium_text">Адрес: Санкт-Петербург, Морской проспект, дом 5</span>
             </div>
         </div>
     </div>

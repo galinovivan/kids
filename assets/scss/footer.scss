@@ -7,4 +7,10 @@ footer {
   bottom: 0;
   height: $footerHeight;
   width: 100%;
+  .contact_row {
+    padding: 30px 0;
+    span:not(.no_marg) {
+      margin-right: 30px;
+    }
+  }
 }
