@@ -16,4 +16,22 @@
       line-height: 1.8;
     }
   }
+  &.contacts_page {
+    .contact_detail {
+      color: $fontAccentColor;
+      .title {
+        h4 {
+          font-size: 18px;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+      }
+      span {
+        display: block;
+      }
+      & > div {
+        margin-bottom: 25px;
+      }
+    }
+  }
 }

@@ -4,6 +4,11 @@ body {
   color: $fontBlack;
 }
 
+h1,h2,h3,h4,h5 {
+  font-family: $mediumFont;
+  font-weight: 500;
+}
+
 h3 {
   font-size: $h3FontSize;
   font-family: $mediumFont;

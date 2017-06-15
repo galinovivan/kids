@@ -16,5 +16,5 @@
                 <span class="medium_text">Адрес: Санкт-Петербург, Морской проспект, дом 5</span>
             </div>
         </div>
-    </div>
 </footer>
+<script src="<?=get_template_directory_uri()?>/assets/js/dist/scripts.js"></script>
