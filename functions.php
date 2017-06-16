@@ -45,3 +45,34 @@ add_action('wp_enqueue_scripts', 'kids_scrips');
 
 add_theme_support('post-thumbnails');
 set_post_thumbnail_size(825, 510, false);
+
+
+function my_admin_logo() {
+    echo '
+    <style type="text/css">
+        #f { background:url('.get_bloginfo('template_directory').'/assets/images/header_logo.png) no-repeat 0 0 !important; }
+        h1 a { background:url('.get_bloginfo('template_directory').'/assets/images/header_logo.png) no-repeat 0 0 !important; }
+    </style>';
+}
+add_action('admin_head', 'my_admin_logo');
+
+function my_login_logo() {
+    echo '
+    <style type="text/css">
+        #header-logo { background:url('.get_bloginfo('template_directory').'/assets/images/header_logo.png) no-repeat 0 0 !important; }
+       .login h1 a { background:url('.get_bloginfo('template_directory').'/assets/images/header_logo.png) no-repeat 0 0 !important;
+        background-size: cover;
+       background-position: center center;
+        width: 120px;
+        height: 120px;
+        }
+       
+    </style>';
+}
+
+add_action('login_head', 'my_login_logo');
+
+
+require_once get_template_directory() . '/inc/personal.php';
+
+require_once get_template_directory() . '/inc/gallery.php';

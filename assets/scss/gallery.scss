@@ -1,0 +1,33 @@
+.gallery_page {
+  .gallery_list {
+    .item_title {
+      margin-top: 20px;
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: none;
+        }
+        h4 {
+          font-family: $baseFont;
+          color: $fontBlack;
+          text-decoration: none !important;
+          font-size: $h3FontSize;
+          line-height: 0.4;
+        }
+      }
+    }
+    .item_desc {
+      p {
+        font-style: italic;
+      }
+    }
+    .item_thumb {
+      overflow: hidden;
+      height: 380px;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
