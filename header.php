@@ -77,6 +77,16 @@
                             </a>
                         </li>
                         <li>
+                            <a href="<?=get_page_link(91);?>">
+                                <div class="icon">
+                                    <i class="nav_icon nav_icon_group"></i>
+                                </div>
+                                <div class="label">
+                                    Группы
+                                </div>
+                            </a>
+                        </li>
+                        <li>
                             <a href="<?=get_page_link(30);?>">
                             <div class="icon">
                                 <i class="nav_icon nav_icon_contact"></i>
@@ -86,7 +96,6 @@
                                 </div>
                             </a>
                         </li>
-                        <li></li>
                     </ul>
                 </div>
             </div>

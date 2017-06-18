@@ -33,6 +33,9 @@
           &.nav_icon_contact {
             background: url('../images/nav_icon_contact.png') no-repeat center center;
           }
+          &.nav_icon_group {
+            background: url('../images/group.png') no-repeat center center;
+          }
         }
       }
       a {
@@ -53,6 +56,9 @@
               }
               &.nav_icon_contact {
                 background-image: url('../images/nov_icon_contacts_hover.png');
+              }
+              &.nav_icon_group {
+                background-image: url('../images/icon_group_hover.png');
               }
             }
           }
