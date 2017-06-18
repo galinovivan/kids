@@ -19,12 +19,12 @@
                 while($personalQuery->have_posts()):
                     $personalQuery->the_post();
             $thumbSrc = wp_get_attachment_image_src(get_post_thumbnail_id(),
-                'full', true)[0];
+                'full', true);
             ?>
             <div class="col-md-4">
                 <div class="item_thumbnail">
-                    <a href="<?=$thumbSrc;?>" data-fancybox>
-                    <img src="<?=$thumbSrc;?>" class="img-responsive" />
+                    <a href="<?=$thumbSrc[0];?>" data-fancybox>
+                    <img src="<?=$thumbSrc[0];?>" class="img-responsive" />
                     </a>
                 </div>
                 <div class="item_title">

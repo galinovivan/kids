@@ -13,7 +13,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=1180">
+
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <?php wp_head(); ?>
@@ -35,7 +37,7 @@
                 <div class="header_nav">
                     <ul class="nav inline_nav">
                         <li>
-                            <a href="#">
+                            <a href="<?=get_page_link(12);?>">
                                 <div class="icon">
                                     <i class="nav_icon nav_icon_about"></i>
                                 </div>
@@ -45,7 +47,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="<?=get_page_link(37);?>">
                                 <div class="icon">
                                     <i class="nav_icon nav_icon_developers"></i>
                                 </div>
@@ -55,7 +57,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="<?=get_page_link(71);?>">
                                 <div class="icon">
                                     <i class="nav_icon nav_icon_gallery"></i>
                                 </div>
@@ -65,7 +67,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="<?=get_page_link(22);?>">
                                 <div class="icon">
                                     <i class="nav_icon nav_icon_method"></i>
                                 </div>
@@ -75,7 +77,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="<?=get_page_link(30);?>">
                             <div class="icon">
                                 <i class="nav_icon nav_icon_contact"></i>
                             </div>

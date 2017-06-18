@@ -21,13 +21,13 @@
                 while($galleryQuery->have_posts()):
                     $galleryQuery->the_post();
                     $thumbSrc = wp_get_attachment_image_src(get_post_thumbnail_id(),
-                        'full', true)[0];
+                        'full', true);
             ?>
                     <div class="col-md-6">
                         <div class="gallery_preview">
 
                                 <div class="item_thumb">
-                                    <img src="<?=$thumbSrc;?>" alt="<?=get_the_title();?>"
+                                    <img src="<?=$thumbSrc[0];?>" alt="<?=get_the_title();?>"
                                     class="with_border"/>
                                 </div>
                                 <div class="item_title">

@@ -23,8 +23,8 @@
                 $id = get_the_ID();
                 ?>
 
-                   <?php $imagesSrc = get_post_galleries_images($id)[0];
-                  foreach ($imagesSrc as $src):
+                   <?php $imagesSrc = get_post_galleries_images($id);
+                  foreach ($imagesSrc[0] as $src):
                    ?>
                       <div>
                           <img src="<?=$src?>" class="img-responsive" />
