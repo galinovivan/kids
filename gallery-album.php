@@ -57,3 +57,4 @@ $imagesSrc = null;
     </div>
 </div>
 <script src="<?=get_template_directory_uri();?>/assets/libs/slick/slick/slick.min.js"></script>
+<script src="<?=get_template_directory_uri();?>/assets/js/slider/slider.js"></script>
