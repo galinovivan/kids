@@ -17,7 +17,7 @@
 
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title><?=get_the_title();?></title>
     <?php wp_head(); ?>
 </head>
 <body>
