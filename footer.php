@@ -10,10 +10,9 @@
 <footer>
     <div class="container">
         <div class="contact_row">
-                <span class="medium_text">Детский сад №5 Петроградского района г. С-Пб</span>
-                <span class="medium_text no_marg">Тел: +7 812 000 00 00</span>
-                <span class="medium_text">Тел: +7 812 000 00 00</span>
-                <span class="medium_text">Адрес: Санкт-Петербург, Морской проспект, дом 5</span>
+                <span class="medium_text">Детский сад №5 Петроградского района г. Санкт-Петербурга</span>
+                <span class="medium_text">Тел: 8-950-662-56-49</span>
+                <span class="medium_text">Адрес: Санкт-Петербург, Морской пр-т, д. 26, литера А.</span>
             </div>
         </div>
 </footer>
